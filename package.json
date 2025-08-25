@@ -1,0 +1,26 @@
+{
+  "name": "kaptal-legal-bot",
+  "version": "1.0.0",
+  "description": "Canal: WhatsApp (Twilio). Panel web con aprobación humana. Alcance v1: dudas rápidas, intake guiado, envío/recepción de documentos, borrador de cotización (aprobación humana), agenda básica. KPIs (mes 1): Containment ≥55%, FRT bot ≤5s, takeover ≤15min, %intake 48h ≥70%, CSAT ≥4.5/5.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "pino": "^9.9.0",
+    "twilio": "^5.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
