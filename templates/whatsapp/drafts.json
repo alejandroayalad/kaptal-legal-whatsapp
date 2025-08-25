@@ -1,0 +1,18 @@
+ {
+    "name": "bienvenida_opt_in",
+    "language": "es",
+    "category": "UTILITY",
+    "body": "Hola {{1}}, soy el asistente de Kaptal. Te ayudo a registrar tu caso y coordinar con un abogado. Al continuar aceptas nuestro aviso de privacidad: {{2}}."
+  },
+  {
+    "name": "recordatorio_intake",
+    "language": "es",
+    "category": "UTILITY",
+    "body": "¿Seguimos con tu registro? Podemos continuar por aquí o agendar una llamada. Responde '1' para continuar, '2' para agendar."
+  },
+  {
+    "name": "recordatorio_cita",
+    "language": "es",
+    "category": "UTILITY",
+    "body": "Tu cita es el {{1}} a las {{2}}. Responde 'CONFIRMAR' o 'REPROGRAMAR'."
+  }
