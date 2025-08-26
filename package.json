@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "Canal: WhatsApp (Twilio). Panel web con aprobación humana. Alcance v1: dudas rápidas, intake guiado, envío/recepción de documentos, borrador de cotización (aprobación humana), agenda básica. KPIs (mes 1): Containment ≥55%, FRT bot ≤5s, takeover ≤15min, %intake 48h ≥70%, CSAT ≥4.5/5.",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+     "dev": "nodemon apps/api/server.js",
+      "start": "node apps/api/server.js"
   },
   "keywords": [],
   "author": "",
